@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RC Car Control</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="no_device">No device selected</string>
+    <string name="connecting">Connecting to %s</string>
+    <string name="connected">Connected to %s</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="mode_switching">Switching to %s mode</string>
+    <string name="obstacle_detected">Obstacle detected: %d cm</string>
+</resources>

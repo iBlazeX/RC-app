@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_auto">#2196F3</color>
+    <color name="button_manual">#4CAF50</color>
+    <color name="button_stop">#F44336</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="gradient_end">#0D47A1</color>
+    <color name="gradient_start">#1A237E</color>
+    <color name="ic_launcher_background">#FF0000</color>
+    <color name="overlay_auto">#882196F3</color>
+    <color name="switch_track">#B3E5FC</color>
+    <color name="text_primary">#FFFFFF</color>
+    <string name="app_name">RC Car Control</string>
+    <string name="auto_mode">Auto Mode</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected to %s</string>
+    <string name="connecting">Connecting to %s</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="manual_mode">Manual Mode</string>
+    <string name="mode_switching">Switching to %s mode</string>
+    <string name="no_device">No device selected</string>
+    <string name="obstacle_detected">Obstacle detected: %d cm</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ControlButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+    <style name="ModeSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textSize">18sp</item>
+        <item name="android:trackTint">@color/switch_track</item>
+    </style>
+</resources>
